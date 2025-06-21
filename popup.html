@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaFlow</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MangaFlow</h1>
+            <p class="subtitle">Auto Scroll for Manga Readers</p>
+        </div>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="scrollSpeed">Scroll Speed:</label>
+                <div class="speed-control">
+                    <input type="range" id="scrollSpeed" min="1" max="10" value="5" class="speed-slider">
+                    <span id="speedValue">5</span>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <label for="pauseOnInteraction">Pause on Interaction:</label>
+                <input type="checkbox" id="pauseOnInteraction" checked>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button id="startBtn" class="btn btn-primary">
+                <span class="icon">▶</span>
+                Start
+            </button>
+            <button id="pauseBtn" class="btn btn-secondary" disabled>
+                <span class="icon">⏸</span>
+                Pause
+            </button>
+            <button id="stopBtn" class="btn btn-danger" disabled>
+                <span class="icon">⏹</span>
+                Stop
+            </button>
+        </div>
+        
+        <div class="status">
+            <div id="statusText" class="status-text">Ready to start</div>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html> 
