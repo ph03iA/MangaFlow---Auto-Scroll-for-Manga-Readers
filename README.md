@@ -18,7 +18,7 @@ Enjoy a hands-free manga reading experience with MangaFlow! This Chrome extensio
 2.  Open Chrome and navigate to `chrome://extensions/`.
 3.  Enable **"Developer mode"** in the top-right corner.
 4.  Click **"Load unpacked"** and select the extension's folder.
-5.  Pin the MangaFlow icon to your toolbar for easy access.
+5.  Pin the MangaFlow icon to your toolbar for easy access!
 
 ## How to Use
 
